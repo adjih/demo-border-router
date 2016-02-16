@@ -6,7 +6,7 @@
 #---------------------------------------------------------------------------
 
 #personnal preferences
-if [ "$1" == "adjih" ] ; then
+if [ Z"$1" = Z"adjih" ] ; then
     sudo apt-get -y remove unity
     sudo apt-get -y install ubuntu-mate-default-settings ubuntu-mate-desktop \
      ubuntu-mate-welcome mate-session-manager mate-terminal \
